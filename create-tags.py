@@ -31,6 +31,3 @@ for poolid in PROXMOX_POOLS.items():
             print('Pool ' + poolid[1] + 'already exists.')
         else:
             proxmox_api_session.pools.create(poolid=poolid[1], comment=poolid[0])
-
-
-
