@@ -9,6 +9,7 @@ PROXMOX_POOLS = {
 'DH Lab Pool-1' : 'DH-LAB-1',
 'DH Lab Pool-2' : 'DH-LAB-2',
 'DH Lab Pool-3' : 'DH-LAB-3',
+'PO Lab Pool-1'   : 'PO-POOL-1',
 }
 
 proxmox_api_session = ProxmoxAPI(PROXMOX_HOST, user=PROXMOX_USER, password=USER_PASSWORD, verify_ssl=VERIFY_SSL)
